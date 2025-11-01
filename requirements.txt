@@ -1,0 +1,30 @@
+# Core dependencies
+python-dotenv
+langchain
+langchain-community
+langchain-openai
+langchain-chroma
+
+# Document loaders (used for PDF, DOCX, TXT)
+PyPDF2
+pymupdf
+docx2txt
+
+# Vector store
+chromadb
+
+# Text splitting and embeddings
+tiktoken
+
+# Optional (recommended for compatibility with LangChain loaders)
+pandas
+numpy
+
+# Logging and warnings
+tqdm
+
+# Azure SDK (some environments may need these explicitly)
+azure-core
+azure-ai-formrecognizer
+
+streamlit
